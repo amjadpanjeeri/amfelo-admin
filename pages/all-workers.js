@@ -1,15 +1,15 @@
 import React from 'react'
 import Header from '../components/layout/Header'
 
-export default function AllOrders() {
+export default function AllWorkers() {
     return (
         <div className="content-wrapper">
-           <Header headerValue="All Orders"/>
+           <Header headerValue="All Workers"/>
             <div className="row">
                 <div className="col-md-12 grid-margin stretch-card">
                     <div className="card">
                         <div className="card-body">
-                            <h4 className="card-title">All Orders</h4>
+                            <h4 className="card-title">All Workers</h4>
                             <div className="table-responsive">
                                 <table className="table">
                                     <thead>

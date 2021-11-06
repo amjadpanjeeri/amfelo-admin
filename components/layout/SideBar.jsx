@@ -27,51 +27,33 @@ export default function SideBar() {
                     <li className="nav-item sidebar-actions">
                         <span className="nav-link">
                             <div className="border-bottom">
-                                <h6 className="font-weight-normal mb-3">Order Management</h6>
+                                <h6 className="font-weight-normal mb-3">Users Management</h6>
                             </div>
                         </span>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/all-orders">
-                            <span className="menu-title">All Orders</span>
+                        <a className="nav-link" href="/all-users">
+                            <span className="menu-title">All Users</span>
                             <i className="mdi mdi-view-list menu-icon"></i>
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/assigned-orders">
-                            <span className="menu-title">Assigned Orders</span>
+                        <a className="nav-link" href="/">
+                            <span className="menu-title">Add User</span>
                             <i className="mdi mdi-playlist-check menu-icon"></i>
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/not-assigned-orders">
-                            <span className="menu-title">Not Assigned</span>
-                            <i className="mdi mdi-playlist-remove menu-icon"></i>
                         </a>
                     </li>
                     <li className="nav-item sidebar-actions">
                         <span className="nav-link">
                             <div className="border-bottom">
-                                <h6 className="font-weight-normal mb-3">Product Management</h6>
+                                <h6 className="font-weight-normal mb-3">Category Management</h6>
                             </div>
                         </span>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="">
-                            <span className="menu-title">All Products</span>
-                            <i className="mdi mdi-view-list menu-icon"></i>
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="">
+                        <a className="nav-link" href="/all-categories">
                             <span className="menu-title">All Categories</span>
                             <i className="mdi mdi-view-list menu-icon"></i>
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="">
-                            <span className="menu-title">Add Product</span>
-                            <i className="mdi mdi-plus-box menu-icon"></i>
                         </a>
                     </li>
                     <li className="nav-item">
@@ -83,21 +65,58 @@ export default function SideBar() {
                     <li className="nav-item sidebar-actions">
                         <span className="nav-link">
                             <div className="border-bottom">
+                                <h6 className="font-weight-normal mb-3">Product Management</h6>
+                            </div>
+                        </span>
+                    </li>
+
+                    <li className="nav-item">
+                        <a className="nav-link" href="all-products">
+                            <span className="menu-title">All Products</span>
+                            <i className="mdi mdi-account-multiple menu-icon"></i>
+                        </a>
+                    </li>
+                   
+                    <li className="nav-item">
+                        <a className="nav-link" href="">
+                            <span className="menu-title">Add Product</span>
+                            <i className="mdi mdi-plus-box menu-icon"></i>
+                        </a>
+                    </li>
+                    <li className="nav-item sidebar-actions">
+                        <span className="nav-link">
+                            <div className="border-bottom">
+                                <h6 className="font-weight-normal mb-3">Sales Management</h6>
+                            </div>
+                        </span>
+                    </li>
+
+                    <li className="nav-item">
+                        <a className="nav-link" href="/all-sales">
+                            <span className="menu-title">All Sales</span>
+                            <i className="mdi mdi-account-multiple menu-icon"></i>
+                        </a>
+                    </li>
+
+                    <li className="nav-item sidebar-actions">
+                        <span className="nav-link">
+                            <div className="border-bottom">
                                 <h6 className="font-weight-normal mb-3">Workers Management</h6>
                             </div>
                         </span>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href="">
+                        <a className="nav-link" href="/all-workers">
                             <span className="menu-title">All Workers</span>
                             <i className="mdi mdi-account-multiple menu-icon"></i>
                         </a>
                     </li>
+
                     <li className="nav-item">
                         <a className="nav-link" href="">
                             <span className="menu-title">Add Worker</span>
-                            <i className="mdi mdi-account-plus menu-icon"></i>
+                            <i className="mdi mdi-plus-box menu-icon"></i>
                         </a>
                     </li>
                 </ul>
