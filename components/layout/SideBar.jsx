@@ -38,7 +38,7 @@ export default function SideBar() {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/">
+                        <a className="nav-link" href="/add-user">
                             <span className="menu-title">Add User</span>
                             <i className="mdi mdi-playlist-check menu-icon"></i>
                         </a>
@@ -57,7 +57,7 @@ export default function SideBar() {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="">
+                        <a className="nav-link" href="/add-category">
                             <span className="menu-title">Add Category</span>
                             <i className="mdi mdi-plus-box menu-icon"></i>
                         </a>
@@ -71,14 +71,14 @@ export default function SideBar() {
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href="all-products">
+                        <a className="nav-link" href="/all-products">
                             <span className="menu-title">All Products</span>
                             <i className="mdi mdi-account-multiple menu-icon"></i>
                         </a>
                     </li>
                    
                     <li className="nav-item">
-                        <a className="nav-link" href="">
+                        <a className="nav-link" href="/add-product">
                             <span className="menu-title">Add Product</span>
                             <i className="mdi mdi-plus-box menu-icon"></i>
                         </a>
@@ -114,7 +114,7 @@ export default function SideBar() {
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href="">
+                        <a className="nav-link" href="/add-worker">
                             <span className="menu-title">Add Worker</span>
                             <i className="mdi mdi-plus-box menu-icon"></i>
                         </a>
