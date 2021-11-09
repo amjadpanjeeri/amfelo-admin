@@ -20,6 +20,7 @@ export default function AllCategories() {
                       <th>Image </th>
                       <th>Added by </th>
                       <th>Created Date </th>
+                      <th>Actions</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -38,6 +39,21 @@ export default function AllCategories() {
                       </td>
                       <td>amjadpanjeeri@gmail.com</td>
                       <td> May 15, 2015 </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn mr-1 btn-outline-primary btn-sm"
+                        >
+                          Edit
+                        </button>
+
+                        <button
+                          type="button"
+                          class="btn btn-outline-danger btn-sm"
+                        >
+                          Delete
+                        </button>
+                      </td>
                     </tr>
                   </tbody>
                 </table>

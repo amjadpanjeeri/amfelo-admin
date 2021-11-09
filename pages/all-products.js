@@ -24,6 +24,7 @@ export default function AllProducts() {
                       <th> Added By </th>
                       <th> Time Stamp </th>
                       <th> Occasions </th>
+                      <th>Actions</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -47,6 +48,21 @@ export default function AllProducts() {
                       <td> amjadpanjeeri@gmail.com </td>
                       <td> May 15, 2015 </td>
                       <td> Engagement, Birthday </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn mr-1 btn-outline-primary btn-sm"
+                        >
+                          Edit
+                        </button>
+
+                        <button
+                          type="button"
+                          class="btn btn-outline-danger btn-sm"
+                        >
+                          Delete
+                        </button>
+                      </td>
                     </tr>
                   </tbody>
                 </table>

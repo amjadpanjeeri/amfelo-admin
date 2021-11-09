@@ -19,6 +19,7 @@ export default function AllUsers() {
                       <th> Email </th>
                       <th> Phone Number </th>
                       <th> Joined At </th>
+                      <th>Actions</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -28,13 +29,21 @@ export default function AllUsers() {
                       <td>herman@gmail.com</td>
                       <td>9876543210</td>
                       <td> May 15, 2015 </td>
-                    </tr>
-                    <tr>
-                      <td> 2 </td>
-                      <td> Messsy Adam </td>
-                      <td>messsy@gmail.com</td>
-                      <td>9876543210</td>
-                      <td> Jul 01, 2015 </td>
+                      <td>
+                        <button
+                          type="button"
+                          class="btn mr-1 btn-outline-primary btn-sm"
+                        >
+                          Edit
+                        </button>
+
+                        <button
+                          type="button"
+                          class="btn btn-outline-danger btn-sm"
+                        >
+                          Delete
+                        </button>
+                      </td>
                     </tr>
                   </tbody>
                 </table>
